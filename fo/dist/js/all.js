@@ -27,7 +27,8 @@ $(function() {
 				})
 			})
 		}
-	})
+        bannerSize()
+	});
 	if(body.width() > 945) {
 		stableImage();
 	} else {
@@ -49,7 +50,19 @@ $(function() {
 			})
 		})
 	}
+    function bannerSize() {
+        var headerHeight = $('.header').height(),
+            navigationHeight = $('.nav-header').height(),
+            windowHeight = window.innerHeight,
+            currentHeight = windowHeight - (headerHeight+navigationHeight);
+        $(slider).css({
+            height: currentHeight + 'px'
+        })
 
+    }
+    setTimeout(function() {
+        bannerSize()
+    }, 400)
 	sliderLink.on('click', function(e) {
 		e.preventDefault();
 		$('[data-img]').fadeOut();
@@ -74,5 +87,7 @@ $(function() {
 	$('.footer .nav-hide-menu__trigger').on('click', function() {
 		$("html, body").animate({ scrollTop: $(document).height() }, 1000);
 	})
+
+
 
 })
