@@ -6,7 +6,11 @@
 .nav-hide {
   display: none !important;
 }
-
+.nav-hide-menu__trigger {
+    display: none;
+    left: 10000px;
+    position: absolute;
+}
 .header__contacts {
     width: 44%;
 }
