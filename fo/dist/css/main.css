@@ -753,6 +753,12 @@ img {
     height: 575px;
     width: 100%;
     overflow: hidden;
+
+}
+@media (max-width : 960px;) {
+    .banners__field {
+    height: auto;
+}
 }
 .banners__column {
     height: 100%;
