@@ -26,7 +26,13 @@
 .slider__menu a {
     font-size: 22px;
 }
-
+.banners__column {
+    width: 31%;
+}
+.banners__field {
+    position: relative;
+    left: 100px;
+}
 .nav__link {
     font-size: 18px;
 }
