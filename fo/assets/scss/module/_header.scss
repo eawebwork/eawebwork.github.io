@@ -112,7 +112,7 @@
 			transition: all .15s;
 			float: left;
 			margin-top: 56px;
-
+			cursor: pointer;
 			@extend %pf_regular;
 
 			&:hover {

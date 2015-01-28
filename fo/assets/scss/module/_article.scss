@@ -218,6 +218,9 @@
 				color:  #000000;
 				font-size: 19px;
 				text-decoration: underline;
+				&:hover{
+					text-decoration: none;
+				}
 			}
 		}
 		&__date {

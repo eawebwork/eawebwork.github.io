@@ -1,5 +1,6 @@
 .banners {
 	width: 100%;
+	overflow: hidden;
 	&_inner {
 		@extend %inner;
 		position: relative;
