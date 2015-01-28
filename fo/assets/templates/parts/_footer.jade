@@ -1,0 +1,23 @@
+footer.footer
+	.footer_inner
+		// begin navigation
+
+		// begin navigation > 960
+		+navigation(header)(class="nav-footer")
+		// end navigation > 960
+
+		// begin navigation < 960
+		nav.nav.nav-hide
+			span.nav-hide-menu__trigger
+				span.line
+			ul.nav__menu.nav-hide-menu
+				each val in header
+					li.nav-hide-menu__item
+						a(href="#").nav-hide-menu__link= val
+		// end navigation > 960
+
+		// end navigation
+		.search.search__footer
+			input(type="text", placeholder="Поиск по сайту", class="search__footer__input")
+			input(type="button", class="search__banners__button search__footer__button")
+		.footer__telephone 8 (800) 775-23-42		

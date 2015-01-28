@@ -71,5 +71,8 @@ $(function() {
 		$(this).addClass('active');
 		$('[data-count = '+$(this).index()+']').addClass('active');
 	})
+	$('.footer .nav-hide-menu__trigger').on('click', function() {
+		$("html, body").animate({ scrollTop: $(document).height() }, 1000);
+	})
 
 })
