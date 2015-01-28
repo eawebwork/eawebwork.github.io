@@ -48,3 +48,7 @@
 .article__button {
     font-size: 20px;
 }
+.slider__item img {
+    left: 0;
+    margin-left: 0;
+}
