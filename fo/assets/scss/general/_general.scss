@@ -1,0 +1,15 @@
+html,body {
+	height: 100%;
+}
+button {
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+body {
+	@extend %pf_regular;
+}
+img {
+	color: #666;
+}

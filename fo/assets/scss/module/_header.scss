@@ -1,0 +1,184 @@
+.header {
+	width: 100%;
+	border-bottom: 1px solid #e5e5e5;
+	@extend %clearfix;
+	&_inner {
+		@extend %inner;
+		height: 155px;
+		@media (max-width: 960px) and (min-width: 720px) {
+			height: auto;
+			padding-bottom: 20px;
+		}
+		@media (max-width: 720px) {
+			height: auto;
+			padding: 10px 0px;
+		}
+
+	}
+	&__logo {
+		height: 155px;
+		display: inline-block;
+		float: left;
+		padding-left: 50px;
+		@media (max-width: 960px) and (min-width: 720px) {
+			padding-left: 2%;	
+		}
+		@media (max-width: 720px) {
+			padding-left: 4%;
+			height: auto;
+		}
+
+		&__link {
+			color: $logoRed;
+			font-family: $logoFont;
+			font-size: 49px;
+			line-height: 155px;
+			text-decoration: none;
+
+			@media (max-width: 720px) and (min-width: 520px) {
+				font-size: 30px;
+				line-height: 50px;
+			}
+			@media (max-width: 520px) {
+				font-size: 35px;
+				line-height: 90px;
+			}
+		}
+
+		&-after {
+			height: 155px;
+			line-height: 155px;
+			display: inline-block;
+			float: left;
+			margin-left: 2%;
+
+			@media (max-width: 960px) and (min-width: 720px) {
+				margin-right: 0%;
+				margin-left: 3%;
+			}
+			@media (max-width: 720px) {
+				display: none;
+			}
+
+			&-text {
+				font-family: $afterLogoFont;
+				width: 240px;
+				line-height: 30px;
+				color: #000000;
+				font-size: 22px;
+				margin-top: 55px;
+				box-sizing: border-box;
+				padding: 0px 25px 0px 5px;
+				border-top: 2px solid #999;
+				border-bottom: 2px solid #999;
+				margin-top: 52px;
+				@media (max-width: 960px) and (min-width: 720px) {
+					width: 210px;
+					font-size: 18px;
+				}
+			}
+		}
+	}
+	&__contacts {
+		float: right;
+		display: inline-block;
+		line-height: 155px;
+		padding-right: 21px;
+		width: 39%;
+		@media (max-width: 960px) and (min-width: 720px) {
+			width: 28%;
+		}
+		
+		@media (max-width: 720px) {
+			padding-right: 2%;
+			width: 57%;
+			line-height: 20px;
+		}
+		@media (max-width: 520px) {
+			width: 39%;
+		}
+		&__button {
+			box-sizing: border-box;
+			background-color:  #00a0e9;
+			width: 256px;
+			height: 49px;
+			padding-left: 25px;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			font-size: 28px;
+			transition: all .15s;
+			margin-right: 42px;
+			transition: all .15s;
+			float: left;
+			margin-top: 56px;
+
+			@extend %pf_regular;
+
+			&:hover {
+				opacity: .8;
+			}
+
+			@media (max-width: 1280px) and (min-width: 960px) {
+				padding: 0;
+				width: 50%;
+				margin-right: 0;
+			}
+			@media (max-width: 960px) and (min-width: 720px) {
+				padding: 0;
+				width: 200px;
+				margin-right: 0;
+				float: right;
+				margin-top: 0;
+			}
+			@media (max-width: 720px) {
+				width: 50%;
+				padding: 0;
+				font-size: 22px;
+				margin: 0;
+				float: right;
+				margin-right: 10px;
+			}
+			@media (max-width: 520px) {
+				width: 102px;
+				float: right;
+				font-size: 16px;
+				height: 39px;
+				margin-right: 0;
+				margin-bottom: 5px;
+			}
+		}
+		&__telephones {
+			display: inline-block;
+			vertical-align: middle;
+			color: #000;
+			font-size: 32px;
+			@extend %pf_regular;
+			padding-top: 41px;
+			line-height: 53px;
+			float: right;	
+
+			@media (max-width: 1280px) and (min-width: 960px) {
+				line-height: 40px;
+				padding-top: 48px;
+			}
+			@media (max-width: 960px) and (min-width: 720px) {
+				line-height: 40px;
+				padding-top: 28px;
+				padding-bottom: 10px;
+				padding-right: 3px;
+			}
+			@media (max-width: 720px) and (min-width: 520px) {
+				font-size: 23px;
+				line-height: 25px;
+				padding: 0;
+			}
+			@media (max-width: 520px) {
+				font-size: 18px;
+				line-height: 25px;
+				padding: 0;
+			}
+		}
+	}
+}
+

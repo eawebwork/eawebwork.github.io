@@ -1,0 +1,7 @@
+mixin navigation(place)
+	nav.nav(class!=attributes.class)
+		ul.nav__menu
+			each val in place
+				li.nav__item
+					a.nav__link(href="#", target="")= val
+

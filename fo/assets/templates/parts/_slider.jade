@@ -1,0 +1,10 @@
+section.slider
+	.slider_inner
+		.slider__text 
+			a(href="#").slider__text__link Более 200 реализованных проектов
+		ul.slider__field
+			each img, index in sliderImg
+				li.slider__item(data-img=index)
+					img(src=img, alt=index)
+
+		+navigation(sliderName)(class="slider__menu")

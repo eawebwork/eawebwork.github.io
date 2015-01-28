@@ -1,0 +1,57 @@
+@import 'helpers/_sprite.scss';
+@import 'helpers/_variables.scss';
+@import 'helpers/_mixins.scss';
+
+ /* begin reset */ 
+@import 'general/_reset.scss';
+ /* end reset */
+
+ /* begin fonts */
+@import 'general/_fonts.scss';
+ /* end fonts */
+
+ /* begin general */
+@import 'general/_general.scss';
+ /* end general */
+
+ /* begin layout */
+@import 'layout/_layout.scss';
+ /* end layout */
+
+
+ /* begin header */
+@import 'module/_header.scss';
+ /* end header */
+
+
+
+ /* begin navigation */
+@import 'module/_navigation.scss';
+ /* end navigation */
+
+
+
+ /* begin slider */
+@import 'module/_slider.scss';
+ /* end slider */
+
+ /* begin banners */
+@import 'module/_banners.scss';
+ /* end banners */
+
+ /* begin video */
+@import 'module/_video.scss';
+ /* end video */
+
+ /* begin article */
+@import 'module/_article.scss';
+ /* end article */
+
+ /* begin projects */
+@import 'module/_projects.scss';
+ /* end projects */
+
+ /* begin footer */
+@import 'module/_footer.scss';
+ /* end footer */
+

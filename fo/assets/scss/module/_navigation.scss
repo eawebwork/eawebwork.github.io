@@ -1,0 +1,116 @@
+.nav {
+	display: block;
+	font-size: 0;
+	@extend %clearfix;
+	
+	&-header {
+		width: 100%;
+		background-color:  #ffffff;
+		background: linear-gradient(0deg, #d1d1d1  0%, #f8f8f8 100%);
+		border-top: 1px solid #f3f3f3;
+		@media (max-width: 960px) {
+			display: none;
+		}
+	}
+
+	&__menu {
+		max-width: 1280px;
+		margin: 0 auto;
+		height: 57px;
+		text-align: center;
+	}
+
+	&__item {
+		display: inline-block;
+		padding: 0 1.5%;
+		border-left: 2px dotted #c8c8c8;
+
+		&:first-child {
+			border-left: none;
+		}
+		@media (max-width: 1280px) and (min-width: 960px) {
+			padding: 0 .8%;
+		}
+	}
+
+	&__link {
+		font-size: 15.9*1.5px;
+		@extend %pf_regular;
+		height: 50px;
+		line-height: 57px;
+		display: block;
+		margin-top: 2px;
+		color: #000;
+		text-decoration: none;
+		@media (max-width:1280px) and (min-width: 960px) {
+			font-size: 22px;
+		}
+		&:hover {
+		    text-decoration: underline;
+		}
+	}
+
+	&-hide {
+		width: 100%;
+		background-color:  #d1d1d1;
+		background: linear-gradient(0deg, #d1d1d1  0%, #f8f8f8 100%);
+		border-top: 1px solid #f3f3f3;
+		display: block;
+		height: 40px;
+		position: relative;
+		@media (min-width: 961px) {
+			display: none;
+		}
+		&-menu{
+			height: auto;
+			top: 40px;
+			left: 0;
+			position: absolute;
+			width: 100%;
+			display: none;
+			z-index: 11;
+			&__trigger {
+				width: 30px;
+				height: 15px;
+				border-bottom:3px solid #000;
+				margin-right: 10px;
+				border-top:3px solid #000;
+				float: right;
+				display: inline-block;
+				margin-top: 10px;
+				cursor: pointer;
+				.line {
+					width: 30px;
+					height: 3px;
+					background:#000;
+					display: inline-block;
+					margin-top: 6px;
+				}
+			}
+			&__item {
+				height: 40px;
+				width: 100%;
+				display: block;
+				background-color:  #d1d1d1;
+				border-bottom: 1px solid #f3f3f3;
+				border-top: 1px solid #e5e5e5;
+				line-height: 40px;
+				background: linear-gradient(0deg, #d1d1d1  0%, #f8f8f8 100%);
+				
+			}
+			&__link {
+				font-size: 22px;
+				@extend %pf_regular;
+				width: 100%;
+				display: block;
+				color: #000;
+				text-decoration: none;
+				&:hover {
+				    text-decoration: underline;
+				}
+			}
+		}
+	}
+
+}
+

@@ -1,0 +1,51 @@
+include helpers/_variables
+include helpers/_mixins
+doctype html
+html
+	include parts/_head
+	body
+		include parts/_header
+		// begin navigation
+
+		// begin navigation > 960
+		+navigation(header)(class="nav-header")
+		// end navigation > 960
+
+		// begin navigation < 960
+		nav.nav.nav-hide
+			span.nav-hide-menu__trigger
+				span.line
+			ul.nav__menu.nav-hide-menu
+				each val in header
+					li.nav-hide-menu__item
+						a(href="#").nav-hide-menu__link= val
+		// end navigation > 960
+
+		// end navigation
+
+		// begin slider
+		include parts/_slider
+		// end slider
+
+		// begin banners
+		include parts/_banners
+		// end navigation
+
+		// begin video
+		include parts/_video
+		// end navigation
+
+		// begin article
+		include parts/_article
+		// end article
+
+		// begin projects
+		include parts/_projects
+		// end navigation
+
+		// begin footer
+		include parts/_footer
+		// end navigation
+
+
+	include parts/_script
