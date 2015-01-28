@@ -1,5 +1,17 @@
 .slider__text__link {
-  font-size: 50px; }
+  font-size: 40px;
+    margin-left: 10px;
+}
 
 .nav-hide {
   display: none; }
+
+.header__contacts {
+    width: 44%;
+}
+.header__contacts input {
+    font-size: 22px;
+}
+.article__email__input {
+    background: #ddd;
+}
