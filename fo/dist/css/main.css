@@ -1125,7 +1125,8 @@ img {
 .footer {
   width: 100%;
   background: #d9d8d8;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  margin-top: 40px; }
   .footer__telephone {
     color: #0f0f0f;
     font-size: 46.81px;
