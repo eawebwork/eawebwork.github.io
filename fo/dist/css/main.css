@@ -619,6 +619,12 @@ img {
     position: relative;
     margin-left: -100%;
 }
+@media (min-width: 1280px) {
+    .slider__item img {
+        width: 100%;
+        height: auto;
+    }
+}
 @media (max-width: 960px) {
     .slider__item img {
         width: auto;
@@ -915,7 +921,12 @@ img {
 }
 .banners1 {
     background: url('../img/banner1.jpg') no-repeat center;
-    background-size: 100% 100%;
+    background-size: 115%;
+}
+@media (max-width: 1135px) {
+    .banners1 {
+        background-size: auto;
+    }
 }
 @media (max-width: 960px) {
     .banners1 {
@@ -924,7 +935,12 @@ img {
 }
 .banners1:hover {
     background: url('../img/banner1-hover.jpg') no-repeat center;
-    background-size: 100% 100%;
+    background-size: 115%;
+}
+@media (max-width: 1135px) {
+    .banners1:hover {
+        background-size: auto;
+    }
 }
 @media (max-width: 960px) {
     .banners1:hover {
@@ -941,7 +957,12 @@ img {
 }
 .banners2 {
     background: url('../img/banner2.jpg') no-repeat center;
-    background-size: 100% 100%;
+    background-size: 115%;
+}
+@media (max-width: 1135px) {
+    .banners2 {
+        background-size: auto;
+    }
 }
 @media (max-width: 960px) {
     .banners2 {
@@ -950,7 +971,12 @@ img {
 }
 .banners2:hover {
     background: url('../img/banner2-hover.jpg') no-repeat center;
-    background-size: 100% 100%;
+    background-size: 115%;
+}
+@media (max-width: 1135px) {
+    .banners2:hover {
+        background-size: auto;
+    }
 }
 @media (max-width: 960px) {
     .banners2:hover {
@@ -967,7 +993,12 @@ img {
 }
 .banners3 {
     background: url('../img/banner3.jpg') no-repeat center;
-    background-size: 100% 100%;
+    background-size: 105%;
+}
+@media (max-width: 1135px) {
+    .banners3 {
+        background-size: auto;
+    }
 }
 @media (max-width: 960px) {
     .banners3 {
@@ -976,7 +1007,12 @@ img {
 }
 .banners3:hover {
     background: url('../img/banner3-hover.jpg') no-repeat center;
-    background-size: 100% 100%;
+    background-size: 105%;
+}
+@media (max-width: 1135px) {
+    .banners3:hover {
+        background-size: auto;
+    }
 }
 @media (max-width: 960px) {
     .banners3:hover {
@@ -993,7 +1029,12 @@ img {
 }
 .banners4 {
     background: url('../img/banner4.jpg') no-repeat center;
-    background-size: 100% 100%;
+    background-size: 105%;
+}
+@media (max-width: 1135px) {
+    .banners4 {
+        background-size: auto;
+    }
 }
 @media (max-width: 960px) {
     .banners4 {
@@ -1002,7 +1043,12 @@ img {
 }
 .banners4:hover {
     background: url('../img/banner4-hover.jpg') no-repeat center;
-    background-size: 100% 100%;
+    background-size: 105%;
+}
+@media (max-width: 1135px) {
+    .banners4:hover {
+        background-size: auto;
+    }
 }
 @media (max-width: 960px) {
     .banners4:hover {
@@ -1019,7 +1065,12 @@ img {
 }
 .banners5 {
     background: url('../img/banner5.jpg') no-repeat center;
-    background-size: 100% 100%;
+    background-size: 105%;
+}
+@media (max-width: 1135px) {
+    .banners5 {
+        background-size: auto;
+    }
 }
 @media (max-width: 960px) {
     .banners5 {
@@ -1028,7 +1079,12 @@ img {
 }
 .banners5:hover {
     background: url('../img/banner5-hover.jpg') no-repeat center;
-    background-size: 100% 100%;
+    background-size: 105%;
+}
+@media (max-width: 1135px) {
+    .banners5:hover {
+        background-size: auto;
+    }
 }
 @media (max-width: 960px) {
     .banners5:hover {
@@ -1045,7 +1101,12 @@ img {
 }
 .banners6 {
     background: url('../img/banner6.jpg') no-repeat center;
-    background-size: 100% 100%;
+    background-size: 115%;
+}
+@media (max-width: 1135px) {
+    .banners6 {
+        background-size: auto;
+    }
 }
 @media (max-width: 960px) {
     .banners6 {
@@ -1054,7 +1115,12 @@ img {
 }
 .banners6:hover {
     background: url('../img/banner6-hover.jpg') no-repeat center;
-    background-size: 100% 100%;
+    background-size: 115%;
+}
+@media (max-width: 1135px) {
+    .banners6:hover {
+        background-size: auto;
+    }
 }
 @media (max-width: 960px) {
     .banners6:hover {
@@ -1071,16 +1137,27 @@ img {
 }
 .banners7 {
     background: url('../img/banner7.jpg') no-repeat center;
-    background-size: 100% 100%;
+    background-size: 115%;
+}
+@media (max-width: 1135px) {
+    .banners7 {
+        background-size: auto;
+    }
 }
 @media (max-width: 960px) {
     .banners7 {
         background: #f0f0f0;
     }
+
 }
 .banners7:hover {
     background: url('../img/banner7-hover.jpg') no-repeat center;
-    background-size: 100% 100%;
+    background-size: 115%;
+}
+@media (max-width: 1135px) {
+    .banners7:hover {
+        background-size: auto;
+    }
 }
 @media (max-width: 960px) {
     .banners7:hover {

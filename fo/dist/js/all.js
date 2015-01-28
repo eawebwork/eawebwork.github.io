@@ -18,6 +18,7 @@ $(function() {
 	$('[data-img = 0]').fadeIn();
 
 	$(window).on('resize', function() {
+        bannerHeight();
 		if(body.width() > 945) {
 			stableImage();
 		} else {
@@ -29,6 +30,7 @@ $(function() {
 		}
         bannerSize()
 	});
+    bannerHeight()
 	if(body.width() > 945) {
 		stableImage();
 	} else {
@@ -50,6 +52,14 @@ $(function() {
 			})
 		})
 	}
+    function bannerHeight() {
+        var banH = window.innerHeight;
+        if(banH < 575) {
+            $('.banners__field').css({
+                height: banH
+            })
+        }
+    }
     function bannerSize() {
         var headerHeight = $('.header').height(),
             navigationHeight = $('.nav-header').height(),
@@ -69,15 +79,15 @@ $(function() {
 		$('[data-img=' + $(this).parent().index() + ']').fadeIn();
 	})
 
-	setInterval(function() {
-		i++;
-		if(i > 4) {
-			i = 0;
-		}
-		$('[data-img]').fadeOut();
-		$('[data-img=' + i + ']').fadeIn();
-		
-	}, 5000)
+	//setInterval(function() {
+	//	i++;
+	//	if(i > 4) {
+	//		i = 0;
+	//	}
+	//	$('[data-img]').fadeOut();
+	//	$('[data-img=' + i + ']').fadeIn();
+	//
+	//}, 5000)
 	articleTrigger.on('click', function(){
 		articleTrigger.removeClass('active');
 		articleTab.removeClass('active');
