@@ -4,7 +4,8 @@
 }
 
 .nav-hide {
-  display: none; }
+  display: none !important;
+}
 
 .header__contacts {
     width: 44%;
@@ -16,12 +17,15 @@
     background: #ddd;
 }
 .slider__menu {
-    background: #ddd;
+    background: #303030;
 }
 .slider__menu a {
     font-size: 22px;
 }
 
 .nav__link {
+    font-size: 18px;
+}
+.nav-footer a {
     font-size: 18px;
 }
