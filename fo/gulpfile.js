@@ -68,7 +68,6 @@ gulp.task('autoprefixer', function () {
               'last 2 versions',
               'safari 5',
               'ie 8',
-              'ie 9',
               'opera 12.1',
             ],
             cascade: true
