@@ -15,3 +15,13 @@
 .article__email__input {
     background: #ddd;
 }
+.slider__menu {
+    background: #ddd;
+}
+.slider__menu a {
+    font-size: 22px;
+}
+
+.nav__link {
+    font-size: 18px;
+}
