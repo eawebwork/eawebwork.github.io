@@ -12,7 +12,7 @@
     position: absolute;
 }
 .header__contacts {
-    width: 44%;
+    width: 47%;
 }
 .header__contacts input {
     font-size: 22px;
@@ -32,4 +32,7 @@
 }
 .nav-footer a {
     font-size: 18px;
+}
+.slider__menu .nav__link {
+    font-size: 22px;
 }

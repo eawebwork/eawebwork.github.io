@@ -90,7 +90,7 @@
       <div class="banners_inner">
         <h2 class="title title_banners"><span class="title__text">Добро пожаловать на сайт</span></h2>
         <div class="search search__banners">
-          <input type="text" placeholder="Поиск по сайту" class="search__banners__input">
+          <input type="text" value="Поиск по сайту" name="search1" class="search__banners__input" onfocus="if (this.value=='Поиск по сайту') this.value='';" onblur="if (this.value=='') this.value='Поиск по сайту';">
           <input type="button" class="search__banners__button">
         </div>
         <div class="banners__field">
@@ -196,7 +196,7 @@
           <div class="article__column article__column__small">
             <h3 class="article__title">Подписаться на наши новости</h3>
             <div class="article__email">
-              <input type="text" placeholder="E-mail Adress" class="article__email__input">
+              <input type="text" value="E-mail Adress" class="article__email__input" onfocus="if (this.value=='E-mail Adress') this.value='';" onblur="if (this.value=='') this.value='E-mail Adress';">
               <button class="article__button">Подписаться</button>
             </div>
             <div class="article__tabs">
@@ -351,7 +351,7 @@
         <!-- end navigation > 960-->
         <!-- end navigation-->
         <div class="search search__footer">
-          <input type="text" placeholder="Поиск по сайту" class="search__footer__input">
+          <input type="text" value="Поиск по сайту" class="search__footer__input"  onfocus="if (this.value=='Поиск по сайту') this.value='';" onblur="if (this.value=='') this.value='Поиск по сайту';">
           <input type="button" class="search__banners__button search__footer__button">
         </div>
         <div class="footer__telephone">8 (800) 775-23-42		</div>
