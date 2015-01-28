@@ -121,7 +121,7 @@ img {
   max-width: 1280px;
   display: block;
   width: 100%;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid #b2b2b2;
   text-align: center; }
   .title_banners {
     padding-top: 45px;
