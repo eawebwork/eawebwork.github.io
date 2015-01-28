@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body, .title__text, .title__big__text, .search__banners__input, .header__contacts__button, .header__contacts__telephones, .nav__link, .nav-hide-menu__link, .slider__text__link, .banners__title, .banners__title__big, .banners__title__big__new, .banners__link, .video__description, .article__title, .article__email__input, .article__button, .article__triggers, .article__tab__title a, .footer__telephone, .search__footer__input {
-    font-family: 'pf-regular', sans-serif;
+    font-family: 'pf-regular', 'Helvetica', sans-serif;
 }
 .header_inner:after, .banners_inner:after, .video_inner:after, .article_inner:after, .article__field:after, .projects_inner:after, .footer_inner:after, .header:after, .nav:after, .video__item:after, .article__item:after, .article__email:after, .article__triggers:after, .article__tab__item:after, .projects__field:after {
     content: ".";
@@ -92,12 +92,7 @@ table {
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: 'pf-regular';
-    src: url('../fonts/PFDinTextCompPro-Regular.eot');
-    font-weight: normal;
-    font-style: normal;
-}
+
 /*@font-face {*/
     /*font-family: 'pf-light';*/
     /*src: url('../fonts/pfdintextcomppro-light-webfont.eot');*/
@@ -1316,7 +1311,7 @@ img {
 .article__email__input::-webkit-input-placeholder {
     color: rgba(0, 0, 0, 0.7);
     font-size: 24.009px;
-    font-family: 'pf-regular';
+    font-family: 'pf-regular', 'Helvetica', sans-serif;
     line-height: 61px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -1326,19 +1321,19 @@ img {
         font-size: 20.989px;
     }
 }
-/*.article__email__input:-moz-placeholder {*/
-    /*color: rgba(0, 0, 0, 0.7);*/
-    /*font-size: 24.009px;*/
-    /*font-family: 'pf-regular';*/
-    /*line-height: 61px;*/
-    /*padding-left: 15px;*/
-    /*box-sizing: border-box;*/
-/*}*/
-/*@media (max-width: 960px) and (min-width: 720px) {*/
-    /*.article__email__input:-moz-placeholder {*/
-        /*font-size: 20.989px;*/
-    /*}*/
-/*}*/
+.article__email__input:-moz-placeholder {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 24.009px;
+    font-family: 'pf-regular', 'Helvetica', sans-serif;
+    line-height: 61px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+@media (max-width: 960px) and (min-width: 720px) {
+    .article__email__input:-moz-placeholder {
+        font-size: 20.989px;
+    }
+}
 .article__button {
     height: 61px;
     float: left;
@@ -1546,34 +1541,34 @@ img {
         padding-left: 10px;
     }
 }
-/*.search__footer__input::-webkit-input-placeholder {*/
-    /*color: #fff;*/
-    /*font-size: 27px;*/
-    /* Приближение из-за подстановки шрифтов */
+.search__footer__input::-webkit-input-placeholder {
+    color: #fff;
+    font-size: 27px;
+     Приближение из-за подстановки шрифтов
 
-    /*font-family: 'pf-regular';*/
-    /*line-height: 66px;*/
-/*}*/
-/*@media (max-width: 960px) {*/
-    /*.search__footer__input::-webkit-input-placeholder {*/
-        /*font-size: 21.895px;*/
-        /*padding-left: 10px;*/
-    /*}*/
-/*}*/
-/*.search__footer__input:-moz-placeholder {*/
-    /*color: #fff;*/
-    /*font-size: 27px;*/
-    /* Приближение из-за подстановки шрифтов */
+    font-family: 'pf-regular', 'Helvetica', sans-serif;
+    line-height: 66px;
+}
+@media (max-width: 960px) {
+    .search__footer__input::-webkit-input-placeholder {
+        font-size: 21.895px;
+        padding-left: 10px;
+    }
+}
+.search__footer__input:-moz-placeholder {
+    color: #fff;
+    font-size: 27px;
+     Приближение из-за подстановки шрифтов
 
-    /*font-family: 'pf-regular';*/
-    /*line-height: 66px;*/
-/*}*/
-/*@media (max-width: 960px) {*/
-    /*.search__footer__input:-moz-placeholder {*/
-        /*font-size: 21.895px;*/
-        /*padding-left: 10px;*/
-    /*}*/
-/*}*/
+    font-family: 'pf-regular', 'Helvetica', sans-serif;
+    line-height: 66px;
+}
+@media (max-width: 960px) {
+    .search__footer__input:-moz-placeholder {
+        font-size: 21.895px;
+        padding-left: 10px;
+    }
+}
 .search__footer__button {
     border: none;
     width: 56px;
