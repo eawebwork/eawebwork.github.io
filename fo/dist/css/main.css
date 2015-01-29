@@ -534,7 +534,7 @@ img {
     background: linear-gradient(0deg, #d1d1d1 0%, #f8f8f8 100%);
     border-top: 1px solid #f3f3f3;
     display: block;
-    height: 58px;
+    height: 40px;
     position: relative;
 }
 @media (min-width: 961px) {
