@@ -8,6 +8,9 @@
       <!--[if IE 8]>
          <link rel="stylesheet" href="css/ie.css">
       <![endif]-->
+      <script src="js/libs/jquery/dist/jquery.min.js"></script>
+      <script src="js/libs/lazyload.js"></script>
+      <script src="js/all.js"></script>
   </head>
   <body>
     <div class="header">
@@ -136,19 +139,19 @@
           </div>
           <div class="video__column video__column__small">
             <div class="video__item">
-              <div class="video__preview"><img src="img/preview1.jpg" alt="preview1"></div>
+              <div class="video__preview"><img class="lazy" data-original="img/preview1.jpg" alt="preview1"></div>
               <div class="video__text">
                 <p class="video__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
               </div>
             </div>
             <div class="video__item">
-              <div class="video__preview"><img src="img/preview2.jpg" alt="preview2"></div>
+              <div class="video__preview"><img class="lazy" data-original="img/preview2.jpg" alt="preview2"></div>
               <div class="video__text">
                 <p class="video__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
               </div>
             </div>
             <div class="video__item">
-              <div class="video__preview"><img src="img/preview3.jpg" alt="preview3"></div>
+              <div class="video__preview"><img class="lazy" data-original="img/preview3.jpg" alt="preview3"></div>
               <div class="video__text">
                 <p class="video__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
               </div>
@@ -165,7 +168,7 @@
         <div class="article__field">
           <div class="article__column article__column__big">
             <div class="article__item">
-              <div class="article__image"><img src="img/article-img1.jpg" alt="article-img1"></div>
+              <div class="article__image"><img class="lazy" data-original="img/article-img1.jpg" alt="article-img1"></div>
               <div class="article__description">
                 <h3 class="article__title">Заголовок статьи</h3>
                 <p class="article__text">Компания Фурнитрейд выполнила поставку 87 театральных кресел модели Цезарь для дома культуры Калининграда. Благодаря современным технологиям производство театральных кресел от Фурнитрейд имеет долгий срок службы.</p><a href="" class="article__next">далее>></a>
@@ -179,7 +182,7 @@
               </div>
             </div>
             <div class="article__item">
-              <div class="article__image"><img src="img/article-img2.jpg" alt="article-img2"></div>
+              <div class="article__image"><img class="lazy" data-original="img/article-img2.jpg" alt="article-img2"></div>
               <div class="article__description">
                 <h3 class="article__title">Заголовок статьи</h3>
                 <p class="article__text">Компания Фурнитрейд выполнила поставку 87 театральных кресел модели Цезарь для дома культуры Калининграда. Благодаря современным технологиям производство театральных кресел от Фурнитрейд имеет долгий срок службы.</p><a href="" class="article__next">далее>></a>
@@ -208,7 +211,7 @@
                 <div data-count="0" class="article__tab news active">
                   <!-- begin article__tab__item-->
                   <div class="article__tab__item">
-                    <div class="article__tab__preview"><img src="img/news1.jpg" alt="news1"></div>
+                    <div class="article__tab__preview"><img class="lazy" data-original="img/news1.jpg" alt="news1"></div>
                     <div class="article__tab__description">
                       <h4 class="article__tab__title"><a href="#" title="Название последней новости">Название последней новости</a></h4>
                       <p class="article__tab__date">5 сентября, 2014</p>
@@ -217,7 +220,7 @@
                   <!-- end article__tab__item-->
                   <!-- begin article__tab__item-->
                   <div class="article__tab__item">
-                    <div class="article__tab__preview"><img src="img/news2.jpg" alt="news2"></div>
+                    <div class="article__tab__preview"><img class="lazy" data-original="img/news2.jpg" alt="news2"></div>
                     <div class="article__tab__description">
                       <h4 class="article__tab__title"><a href="#" title="Название последней новости">Название последней новости</a></h4>
                       <p class="article__tab__date">5 сентября, 2014</p>
@@ -226,7 +229,7 @@
                   <!-- end article__tab__item-->
                   <!-- begin article__tab__item-->
                   <div class="article__tab__item">
-                    <div class="article__tab__preview"><img src="img/news3.jpg" alt="news3"></div>
+                    <div class="article__tab__preview"><img class="lazy" data-original="img/news3.jpg" alt="news3"></div>
                     <div class="article__tab__description">
                       <h4 class="article__tab__title"><a href="#" title="Название последней новости">Название последней новости</a></h4>
                       <p class="article__tab__date">5 сентября, 2014</p>
@@ -237,7 +240,7 @@
                 <div data-count="1" class="article__tab pop">
                   <!-- begin article__tab__item-->
                   <div class="article__tab__item">
-                    <div class="article__tab__preview"><img src="img/news3.jpg" alt="news3"></div>
+                    <div class="article__tab__preview"><img class="lazy" data-original="img/news3.jpg" alt="news3"></div>
                     <div class="article__tab__description">
                       <h4 class="article__tab__title"><a href="#" title="Название последней новости">Название последней новости</a></h4>
                       <p class="article__tab__date">5 сентября, 2014</p>
@@ -246,7 +249,7 @@
                   <!-- end article__tab__item-->
                   <!-- begin article__tab__item-->
                   <div class="article__tab__item">
-                    <div class="article__tab__preview"><img src="img/news2.jpg" alt="news2"></div>
+                    <div class="article__tab__preview"><img class="lazy" data-original="img/news2.jpg" alt="news2"></div>
                     <div class="article__tab__description">
                       <h4 class="article__tab__title"><a href="#" title="Название последней новости">Название последней новости</a></h4>
                       <p class="article__tab__date">5 сентября, 2014</p>
@@ -255,7 +258,7 @@
                   <!-- end article__tab__item-->
                   <!-- begin article__tab__item-->
                   <div class="article__tab__item">
-                    <div class="article__tab__preview"><img src="img/news1.jpg" alt="news1"></div>
+                    <div class="article__tab__preview"><img class="lazy" data-original="img/news1.jpg" alt="news1"></div>
                     <div class="article__tab__description">
                       <h4 class="article__tab__title"><a href="#" title="Название последней новости">Название последней новости</a></h4>
                       <p class="article__tab__date">5 сентября, 2014</p>
@@ -277,7 +280,7 @@
         <div class="projects__field">
           <!-- begin projects__item -->
           <div class="projects__item">
-            <div class="projects__preview"><img src="img/project1.jpg" alt="project1"></div>
+            <div class="projects__preview"><img class="lazy" data-original="img/project1.jpg" alt="project1"></div>
             <div class="projects__desctiption">
               <p>Компания Фурнитрейд выполнила поставку 87 театральных кресел.</p>
             </div>
@@ -285,7 +288,7 @@
           <!-- end projects__item -->
           <!-- begin projects__item -->
           <div class="projects__item">
-            <div class="projects__preview"><img src="img/project2.jpg" alt="project2"></div>
+            <div class="projects__preview"><img class="lazy" data-original="img/project2.jpg" alt="project2"></div>
             <div class="projects__desctiption">
               <p>Компания Фурнитрейд выполнила поставку 87 театральных кресел.</p>
             </div>
@@ -293,7 +296,7 @@
           <!-- end projects__item -->
           <!-- begin projects__item -->
           <div class="projects__item">
-            <div class="projects__preview"><img src="img/project3.jpg" alt="project3"></div>
+            <div class="projects__preview"><img class="lazy" data-original="img/project3.jpg" alt="project3"></div>
             <div class="projects__desctiption">
               <p>Компания Фурнитрейд выполнила поставку 87 театральных кресел.</p>
             </div>
@@ -301,7 +304,7 @@
           <!-- end projects__item -->
           <!-- begin projects__item -->
           <div class="projects__item">
-            <div class="projects__preview"><img src="img/project4.jpg" alt="project4"></div>
+            <div class="projects__preview"><img class="lazy" data-original="img/project4.jpg" alt="project4"></div>
             <div class="projects__desctiption">
               <p>Компания Фурнитрейд выполнила поставку 87 театральных кресел.</p>
             </div>
@@ -359,8 +362,7 @@
     </div>
     <!-- end navigation-->
     <!-- begin scripts-->
-    <script src="js/libs/jquery/dist/jquery.min.js"></script>
-    <script src="js/all.js"></script>
+
     <!-- end scripts-->
   </body>
 
