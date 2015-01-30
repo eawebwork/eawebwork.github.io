@@ -1387,10 +1387,10 @@ img {
         padding-left: 5%;
     }
 }
-/*.article__image img {
+.article__image img {
     width: 100%;
     height: 100%;
-}*/
+}
 .article__description {
     width: 37%;
     float: left;
