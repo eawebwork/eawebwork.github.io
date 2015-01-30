@@ -1,0 +1,28 @@
+Index: fo/assets/scss/ie.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- fo/assets/scss/ie.scss	(revision )
++++ fo/assets/scss/ie.scss	(revision )
+@@ -0,0 +1,6 @@
++.slider__text__link {
++	font-size: 50px;
++}
++.nav-hide {
++	display: none;
++}
+\ No newline at end of file
+Index: fo/dist/css/ie.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- fo/dist/css/ie.css	(revision )
++++ fo/dist/css/ie.css	(revision )
+@@ -0,0 +1,5 @@
++.slider__text__link {
++  font-size: 50px; }
++
++.nav-hide {
++  display: none; }
