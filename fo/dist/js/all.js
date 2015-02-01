@@ -1,5 +1,7 @@
 $(function() {
-    $('.lazy').lazyload();
+    $('.lazy').lazyload({
+        effect : "fadeIn"
+    });
 	var hideNavMenu = '.nav-hide-menu',
 		hideNavTrigger = $(hideNavMenu + '__trigger'),
 		body = $('body'),
