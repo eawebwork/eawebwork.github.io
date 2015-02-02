@@ -99,13 +99,13 @@ $(function() {
 		articleTab.removeClass('active');
 		$(this).addClass('active');
 		$('[data-count = '+$(this).index()+']').addClass('active');
-	})
+	});
 	$('.footer .nav-hide-menu__trigger').on('click', function() {
 		$("html, body").animate({ scrollTop: $(document).height() }, 1000);
-	})
+	});
     $(window).scroll(function(){
         $('iframe').show();
     } )
 
-
-})
+    $('.banners__item').mouseover();
+});
