@@ -56,4 +56,291 @@
     background: inherit;
 
 }
+.banners1 {
+    background: url('../img/banner1.jpg') no-repeat center;
+    background-size: 115%;
+}
+@media (max-width: 1135px) {
+    .banners1 {
+        background-size: auto;
+    }
+}
+@media (max-width: 960px) {
+    .banners1 {
+        background: #f0f0f0;
+    }
+}
+.banners1:hover {
+    background: url('../img/banner1-hover.jpg') no-repeat center;
+    background-size: 115%;
+}
+@media (max-width: 1135px) {
+    .banners1:hover {
+        background-size: auto;
+    }
+}
+@media (max-width: 960px) {
+    .banners1:hover {
+        background: #f0f0f0;
+    }
+}
+.banners1:after {
+    background: rgba(91, 41, 30, 0.3);
+}
+@media (max-width: 960px) {
+    .banners1:after {
+        background: transparent;
+    }
+}
+.banners2 {
+    background: url('../img/banner2.jpg') no-repeat center;
+    background-size: 115%;
+}
+@media (max-width: 1135px) {
+    .banners2 {
+        background-size: auto;
+    }
+}
+@media (max-width: 960px) {
+    .banners2 {
+        background: #f0f0f0;
+    }
+}
+.banners2:hover {
+    background: url('../img/banner2-hover.jpg') no-repeat center;
+    background-size: 115%;
+}
+@media (max-width: 1135px) {
+    .banners2:hover {
+        background-size: auto;
+    }
+}
+@media (max-width: 960px) {
+    .banners2:hover {
+        background: #f0f0f0;
+    }
+}
+.banners2:after {
+    background: rgba(1, 1, 1, 0.4);
+}
+@media (max-width: 960px) {
+    .banners2:after {
+        background: transparent;
+    }
+}
+.banners3 {
+    background: url('../img/banner3.jpg') no-repeat center;
+    background-size: 105%;
+}
+@media (max-width: 1135px) {
+    .banners3 {
+        background-size: auto;
+    }
+}
+@media (max-width: 960px) {
+    .banners3 {
+        background: #f0f0f0;
+    }
+}
+.banners3:hover {
+    background: url('../img/banner3-hover.jpg') no-repeat center;
+    background-size: 105%;
+}
+@media (max-width: 1135px) {
+    .banners3:hover {
+        background-size: auto;
+    }
+}
+@media (max-width: 960px) {
+    .banners3:hover {
+        background: #f0f0f0;
+    }
+}
+.banners3:after {
+    background: rgba(1, 0, 137, 0.4);
+}
+.banners3:hover:after {
+    background: #f1f1f1;
+    opacity: .3;
+}
+@media (max-width: 960px) {
+    .banners3:after {
+        background: none;
+    }
+}
+.banners4 {
+    background: url('../img/banner4.jpg') no-repeat center;
+    background-size: 105%;
+}
+.banners1:hover:after {
+    background: none;
+    opacity: .3;
+}
+.banners2:hover:after {
+    background: none;
+    opacity: .3;
+}
+.banners3:hover:after {
+    background:none;
+    opacity: .3;
+}
+.banners4:hover:after {
+    background: none;
+    opacity: .3;
+}
+.banners5:hover:after {
+    background:none;
+    opacity: .3;
+}
+.banners6:hover:after {
+    background:none;
+    opacity: .3;
+}
+.banners7:hover:after {
+    background: none;
+    opacity: .3;
+}
+@media (max-width: 1135px) {
+    .banners4 {
+        background-size: auto;
+    }
+}
+@media (max-width: 960px) {
+    .banners4 {
+        background: #f0f0f0;
+    }
+}
+.banners4:hover {
+    background: url('../img/banner4-hover.jpg') no-repeat center;
+    background-size: 105%;
+}
+@media (max-width: 1135px) {
+    .banners4:hover {
+        background-size: auto;
+    }
+}
+@media (max-width: 960px) {
+    .banners4:hover {
+        background: #f0f0f0;
+    }
+}
+.banners4:after {
+    background: rgba(128, 0, 0, 0.5);
+}
+@media (max-width: 960px) {
+    .banners4:after {
+        background: transparent;
+    }
+}
+.banners5 {
+    background: url('../img/banner5.jpg') no-repeat center;
+    background-size: 105%;
+}
+@media (max-width: 1135px) {
+    .banners5 {
+        background-size: auto;
+    }
+}
+@media (max-width: 960px) {
+    .banners5 {
+        background: #f0f0f0;
+    }
+}
+.banners5:hover {
+    background: url('../img/banner5-hover.jpg') no-repeat center;
+    background-size: 105%;
+}
+@media (max-width: 1135px) {
+    .banners5:hover {
+        background-size: auto;
+    }
+}
+@media (max-width: 960px) {
+    .banners5:hover {
+        background: #f0f0f0;
+    }
+}
+.banners5:after {
+    background: rgba(137, 5, 98, 0.3);
+}
+@media (max-width: 960px) {
+    .banners5:after {
+        background: transparent;
+    }
+}
+.banners6 {
+    background: url('../img/banner6.jpg') no-repeat center;
+    background-size: 115%;
+}
+@media (max-width: 1135px) {
+    .banners6 {
+        background-size: auto;
+    }
+}
+@media (max-width: 960px) {
+    .banners6 {
+        background: #f0f0f0;
+    }
+}
+.banners6:hover {
+    background: url('../img/banner6-hover.jpg') no-repeat center;
+    background-size: 115%;
+}
+@media (max-width: 1135px) {
+    .banners6:hover {
+        background-size: auto;
+    }
+}
+@media (max-width: 960px) {
+    .banners6:hover {
+        background: #f0f0f0;
+    }
+}
+.banners6:after {
+    background: rgba(0, 0, 0, 0.34);
+}
+@media (max-width: 960px) {
+    .banners6:after {
+        background: transparent;
+    }
+}
+.banners7 {
+    background: url('../img/banner7.jpg') no-repeat center;
+    background-size: 115%;
+}
+@media (max-width: 1135px) {
+    .banners7 {
+        background-size: auto;
+    }
+}
+@media (max-width: 960px) {
+    .banners7 {
+        background: #f0f0f0;
+    }
+
+}
+.banners7:hover {
+    background: url('../img/banner7-hover.jpg') no-repeat center;
+    background-size: 115%;
+}
+@media (max-width: 1135px) {
+    .banners7:hover {
+        background-size: auto;
+    }
+}
+@media (max-width: 960px) {
+    .banners7:hover {
+        background: #f0f0f0;
+    }
+}
+.banners7:after {
+    background: rgba(107, 17, 3, 0.56);
+}
+@media (max-width: 960px) {
+    .banners7:after {
+        background: transparent;
+    }
+}
+/* end banners */
+
 

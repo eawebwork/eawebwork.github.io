@@ -1347,15 +1347,18 @@ img {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 .article__column__big {
     width: 66.5%;
     float: left;
 }
+
 @media (max-width: 720px) {
     .article__column__big {
         width: 100%;
     }
 }
+
 .article__column__small {
     min-height: 749px;
     border-left: 1px solid #e1e1e1;
