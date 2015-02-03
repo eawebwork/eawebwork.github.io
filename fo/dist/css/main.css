@@ -803,6 +803,7 @@ img {
 @media (max-width : 960px) {
     .banners__field {
     height: auto;
+        min-height: 970px;
 }
 }
 .banners__column {
