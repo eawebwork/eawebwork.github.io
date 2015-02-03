@@ -75,6 +75,9 @@ $(function() {
     }
 
     bannerSize();
+    setTimeout(function() {
+        $('.banners__item').removeClass('hover')
+    }, 200);
     $(window).load(function() {
         bannerSize();
     });
