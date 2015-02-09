@@ -51,8 +51,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fo/dist/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6364883" vertical-offset="11810" max-vertical-offset="32181">
-              <caret line="722" column="38" selection-start-line="722" selection-start-column="38" selection-end-line="722" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.3608361" vertical-offset="11300" max-vertical-offset="32181">
+              <caret line="684" column="24" selection-start-line="684" selection-start-column="24" selection-end-line="684" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -123,8 +123,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="24" />
-    <option name="width" value="1600" />
-    <option name="height" value="876" />
+    <option name="width" value="1920" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -278,18 +278,6 @@
       <created>1422429131452</created>
       <option name="number" value="Default" />
       <updated>1422429131452</updated>
-    </task>
-    <task id="LOCAL-00009" summary="commit message">
-      <created>1422436856145</created>
-      <option name="number" value="00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1422436856145</updated>
-    </task>
-    <task id="LOCAL-00010" summary="commit message">
-      <created>1422437784622</created>
-      <option name="number" value="00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1422437784622</updated>
     </task>
     <task id="LOCAL-00011" summary="commit message">
       <created>1422439216198</created>
@@ -573,15 +561,27 @@
       <option name="project" value="LOCAL" />
       <updated>1423473739831</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="commit message">
+      <created>1423475199373</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1423475199373</updated>
+    </task>
+    <task id="LOCAL-00059" summary="commit message">
+      <created>1423477369735</created>
+      <option name="number" value="00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1423477369735</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1600" height="876" extended-state="6" />
+    <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.171875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14322917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -1035,8 +1035,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fo/dist/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6364883" vertical-offset="11810" max-vertical-offset="32181">
-          <caret line="722" column="38" selection-start-line="722" selection-start-column="38" selection-end-line="722" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.3608361" vertical-offset="11300" max-vertical-offset="32181">
+          <caret line="684" column="24" selection-start-line="684" selection-start-column="24" selection-end-line="684" selection-end-column="24" />
           <folding />
         </state>
       </provider>
