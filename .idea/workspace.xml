@@ -31,8 +31,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fo/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.7192982" vertical-offset="905" max-vertical-offset="6562">
-              <caret line="59" column="57" selection-start-line="59" selection-start-column="57" selection-end-line="59" selection-end-column="57" />
+            <state vertical-scroll-proportion="-1.4210526" vertical-offset="905" max-vertical-offset="6562">
+              <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -51,8 +51,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fo/dist/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21673526" vertical-offset="10365" max-vertical-offset="32164">
-              <caret line="619" column="16" selection-start-line="619" selection-start-column="16" selection-end-line="619" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.6364883" vertical-offset="11810" max-vertical-offset="32181">
+              <caret line="722" column="38" selection-start-line="722" selection-start-column="38" selection-end-line="722" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -278,12 +278,6 @@
       <created>1422429131452</created>
       <option name="number" value="Default" />
       <updated>1422429131452</updated>
-    </task>
-    <task id="LOCAL-00008" summary="commit message">
-      <created>1422436701315</created>
-      <option name="number" value="00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1422436701315</updated>
     </task>
     <task id="LOCAL-00009" summary="commit message">
       <created>1422436856145</created>
@@ -573,7 +567,13 @@
       <option name="project" value="LOCAL" />
       <updated>1423471300942</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="commit message">
+      <created>1423473739828</created>
+      <option name="number" value="00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1423473739831</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1027,16 +1027,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fo/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7192982" vertical-offset="905" max-vertical-offset="6562">
-          <caret line="59" column="57" selection-start-line="59" selection-start-column="57" selection-end-line="59" selection-end-column="57" />
+        <state vertical-scroll-proportion="-1.4210526" vertical-offset="905" max-vertical-offset="6562">
+          <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fo/dist/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21673526" vertical-offset="10365" max-vertical-offset="32164">
-          <caret line="619" column="16" selection-start-line="619" selection-start-column="16" selection-end-line="619" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.6364883" vertical-offset="11810" max-vertical-offset="32181">
+          <caret line="722" column="38" selection-start-line="722" selection-start-column="38" selection-end-line="722" selection-end-column="38" />
           <folding />
         </state>
       </provider>

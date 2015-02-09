@@ -682,7 +682,7 @@ img {
         height: 100%;
         left: 50%;
         position: relative;
-        margin-left: -100%;
+        margin-left: -960px !important;
         /*margin-top: 0;*/
         /*top: 0;*/
     }
@@ -693,7 +693,7 @@ img {
         height: 100%;
         left: 50%;
         position: relative;
-        margin-left: -100%;
+        margin-left: -960px !important;
         /*margin-top: -100%;*/
         /*top: 100%;*/
     }
@@ -702,6 +702,7 @@ img {
     .slider__item img {
         /*max-width: 1280px;*/
         width: auto;
+
         height: 100%;
     }
 }@media (min-width: 1280px) and (min-height: 900px) {
@@ -719,7 +720,7 @@ img {
         height: 100%;
         left: 50%;
         position: relative;
-        margin-left: -100%;
+        margin-left: -960px !important;
         /*margin-top: -100%;*/
         /*top: 100%;*/
     }
