@@ -617,7 +617,7 @@ img {
     overflow: hidden;
 }
 .slider__item img {
-    /*min-width: 100%;*/
+    min-width: 0 !important;
     width: auto;
     /*min-height: 100%;*/
     left: 50%;
