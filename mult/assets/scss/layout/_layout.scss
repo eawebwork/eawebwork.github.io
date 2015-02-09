@@ -1,0 +1,58 @@
+$blocksInner: adds benefits feedback footer header press;
+
+@each $class in $blocksInner {
+  .#{$class}__inner {
+    @extend %center;    
+  }
+} 
+.form {
+  &__field {
+    position: relative;
+    display: inline-block;
+  }
+  &__text {
+    color: #666;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+  }  
+  &__success {
+    display: none;
+    padding-top: 80px;
+  }
+  &__title--success {
+    color:  $black;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 35px;
+  }
+  &__text--success {
+    color:  $black;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+  }
+}
+
+button {
+  @extend %button;
+}
+input.error {
+  border: 1px solid #e71c24;
+  background:#f1d3d5;
+}
+label.error {
+  color: #e71c24;
+  bottom: -27px;
+  left: 0;
+  font-size: 14px;
+  position: absolute;
+  top: auto;
+  padding: 5px 30px 4px 0px;
+}
+.feedback__success {
+  display: none;
+}

@@ -2,6 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="872140b4-247d-4595-b414-8d98432705c8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/img/product/auto-price.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/dist/img/auto-price.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/img/product/centr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/dist/img/centr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/img/header_background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/dist/img/header_background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/img/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/img/sprite/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/dist/img/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/img/sprite/imgo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/img/product/irvr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/dist/img/irvr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/img/product/kommersant.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/dist/img/kommersant.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/dist/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/img/product/metro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/dist/img/metro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/img/product/mk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/dist/img/mk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/img/product/moscow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/dist/img/moscow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/img/product/moy-raon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/dist/img/moy-raon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/img/product/nedvizhimost.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/dist/img/nedvizhimost.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/img/product/rabota-zarplata.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/dist/img/rabota-zarplata.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/img/product/rabota_dliya.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/dist/img/rabota_dliya.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/img/sprite/report.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/dist/img/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/img/sprite/target.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/img/product/vedomosti.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/dist/img/vedomosti.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/templates/parts/_adds.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/scss/module/_adds.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/templates/parts/_benefits.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/scss/module/_benefits.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/templates/parts/_feedback.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/scss/module/_feedback.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/scss/general/_fonts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/templates/parts/_footer.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/scss/module/_footer.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/scss/general/_general.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/templates/parts/_head.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/templates/parts/_header.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/scss/module/_header.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/scss/layout/_layout.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/templates/helpers/_mixins.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/scss/helpers/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/templates/parts/_press.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/scss/module/_press.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/scss/general/_reset.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/templates/parts/_script.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/scss/helpers/_sprite.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/scss/helpers/_sprite1.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/scss/state/_state.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/templates/helpers/_variables.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/scss/helpers/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/dist/js/all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/dist/js/flowtype.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/dist/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/templates/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/dist/js/jquery-1.11.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/dist/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/dist/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/assets/scss/main.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mult/dist/js/validate.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a8a8a2a0-37cb-4956-bd20-c854e3f8bc91" name="Failed commit: Default" comment="commit message" />
@@ -50,8 +123,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fo/dist/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26447368" vertical-offset="14300" max-vertical-offset="30821">
-              <caret line="853" column="11" selection-start-line="853" selection-start-column="11" selection-end-line="853" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.5144737" vertical-offset="612" max-vertical-offset="30821">
+              <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
               <folding>
                 <marker date="1423042548062" expanded="true" signature="3550:4113" placeholder="{...}" />
                 <marker date="1423042548062" expanded="true" signature="6547:6680" placeholder="{...}" />
@@ -125,9 +198,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1600" />
-    <option name="height" value="904" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -168,6 +241,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="eawebwork.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eawebwork.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eawebwork.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mult" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -235,12 +322,6 @@
       <created>1422429131452</created>
       <option name="number" value="Default" />
       <updated>1422429131452</updated>
-    </task>
-    <task id="LOCAL-00002" summary="commit message">
-      <created>1422432985380</created>
-      <option name="number" value="00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1422432985380</updated>
     </task>
     <task id="LOCAL-00003" summary="commit message">
       <created>1422433088333</created>
@@ -530,17 +611,22 @@
       <option name="project" value="LOCAL" />
       <updated>1423442638181</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="commit message">
+      <created>1423445884245</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1423445884245</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1600" height="904" extended-state="6" />
+    <frame x="0" y="24" width="1600" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.171875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -548,6 +634,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1021,8 +1108,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fo/dist/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26447368" vertical-offset="14300" max-vertical-offset="30821">
-          <caret line="853" column="11" selection-start-line="853" selection-start-column="11" selection-end-line="853" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.5144737" vertical-offset="612" max-vertical-offset="30821">
+          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
           <folding>
             <marker date="1423042548062" expanded="true" signature="3550:4113" placeholder="{...}" />
             <marker date="1423042548062" expanded="true" signature="6547:6680" placeholder="{...}" />

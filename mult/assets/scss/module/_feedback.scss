@@ -1,0 +1,28 @@
+.feedback {
+  width: 100%;
+  border-top: 2px dotted #fff;
+  margin-top: -2px;
+  height: 250px;
+  display: none;
+
+  &__field {
+    position: relative;
+  }
+  &__button {
+    width: 280px;
+    height: 50px;
+    font-size: 18px;
+  }
+  &__title {
+    color: $black;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 35px;
+  }
+  &__form {
+    width: 860px;
+    margin: 0 auto;
+  }
+}

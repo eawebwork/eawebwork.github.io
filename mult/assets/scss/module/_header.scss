@@ -1,0 +1,40 @@
+.header {
+  width: 100%;
+  height: 100%;
+  background:url('../img/header_background.jpg') no-repeat center;
+  background-size: cover;
+  color: $black;
+
+  &__logo {
+    padding-top: 35px;
+    margin-bottom: 55px;
+  }
+  &__title {
+    font-size: 2em;
+    font-weight: bold;
+    color: $black;
+    margin-bottom: 20px;
+    line-height: 1.2em;
+  }
+  &__text {
+    font-size: .7em;
+    line-height: 39.16px;
+    margin-bottom: 80px;
+    span {
+      color: $green;
+      font-weight: 700;
+    }
+  }
+  &__button {
+    @extend %button;
+    width: 316px;
+    height: 60px;
+    font-size: 20px;
+  }
+  &__under-button {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #666;
+    display: block;
+  }
+}

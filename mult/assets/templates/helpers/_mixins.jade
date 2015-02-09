@@ -1,0 +1,19 @@
+mixin input(name, label, type)
+  .form__field
+    label(for=name)=label
+    input(type=type, id=name, name=name)
+
+mixin product()
+  .press__products__wrapper
+    .press__products
+      each val in product
+        img(src="img/#{val}.png")
+      each val in product
+        img(src="img/#{val}.png")
+
+mixin features(arr,arr1)
+  ul.benefits__how-it-works__list
+      each icon, index in arr
+        li.sprite__benefits
+            div(class="icon sprite__benefits__#{icon}")
+            .text=arr1[index]

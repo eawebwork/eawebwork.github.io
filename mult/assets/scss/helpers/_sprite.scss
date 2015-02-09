@@ -1,0 +1,45 @@
+.sprite {
+  &__benefits {
+    .icon {
+      width: 84px;
+      height: 84px;
+      display: inline-block;
+      background-image: url('../img/icons.png');
+      background-repeat: no-repeat;
+    }
+    &__chat {
+      background-position: 0 0;
+
+    }
+    &__newspaper {
+      background-position: -200px 0;
+
+    }
+    &__edit {
+      background-position: -402px 0;
+
+    }
+    &__calendar {
+      background-position: -600px 0;
+
+    }
+    &__card {
+      background-position: -800px 0;
+
+    }
+    &__tel {
+      background-position: -1000px 0;
+
+    }
+    &__arrow {
+      background-position: 0 0;
+
+    }
+    &__report {
+      background-position: 0 0;
+    }
+    &__targen {
+      background-position: 0 0;
+    }
+  }
+}
