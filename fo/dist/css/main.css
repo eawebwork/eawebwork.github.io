@@ -625,7 +625,6 @@ img {
         -webkit-background-size: 100%;
         background-size: 100%;
     }
-
 }
 .slider__item img {
     min-width: 0 !important;
@@ -634,7 +633,7 @@ img {
     left: 50%;
     /*top: 50%;*/
     position: relative;
-    margin-left: -100%;
+    margin-left: -109%;
     /*margin-top: -25%;*/
 }
 @media (min-width: 1280px) and (min-height: 900px) {

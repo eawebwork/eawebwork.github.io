@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="872140b4-247d-4595-b414-8d98432705c8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fo/dist/img/bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fo/dist/css/main.css" afterPath="$PROJECT_DIR$/fo/dist/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a8a8a2a0-37cb-4956-bd20-c854e3f8bc91" name="Failed commit: Default" comment="commit message" />
@@ -51,8 +51,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fo/dist/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56578946" vertical-offset="10212" max-vertical-offset="32385">
-              <caret line="626" column="5" selection-start-line="626" selection-start-column="5" selection-end-line="626" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.47325101" vertical-offset="10450" max-vertical-offset="32368">
+              <caret line="635" column="21" selection-start-line="635" selection-start-column="21" selection-end-line="635" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -278,12 +278,6 @@
       <created>1422429131452</created>
       <option name="number" value="Default" />
       <updated>1422429131452</updated>
-    </task>
-    <task id="LOCAL-00013" summary="commit message">
-      <created>1422440339317</created>
-      <option name="number" value="00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1422440339317</updated>
     </task>
     <task id="LOCAL-00014" summary="commit message">
       <created>1422440363356</created>
@@ -573,7 +567,13 @@
       <option name="project" value="LOCAL" />
       <updated>1423569091517</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="commit message">
+      <created>1423569341296</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1423569341296</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1056,8 +1056,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fo/dist/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56578946" vertical-offset="10212" max-vertical-offset="32385">
-          <caret line="626" column="5" selection-start-line="626" selection-start-column="5" selection-end-line="626" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.47325101" vertical-offset="10450" max-vertical-offset="32368">
+          <caret line="635" column="21" selection-start-line="635" selection-start-column="21" selection-end-line="635" selection-end-column="21" />
           <folding />
         </state>
       </provider>
