@@ -614,7 +614,18 @@ img {
     display: inline-block;
     display: none;
     height: 100%;
+    background: none;
     overflow: hidden;
+
+
+}
+@media (max-width : 960px) {
+    .slider__item {
+        background: url('../img/bg.jpg') no-repeat center;
+        -webkit-background-size: 100%;
+        background-size: 100%;
+    }
+
 }
 .slider__item img {
     min-width: 0 !important;
@@ -679,6 +690,7 @@ img {
 @media (max-width: 960px) {
     .slider__item img {
         width: auto;
+        display: none !important;
         height: 100%;
         left: 50%;
         position: relative;
