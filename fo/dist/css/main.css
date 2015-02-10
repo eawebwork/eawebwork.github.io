@@ -783,7 +783,7 @@ img {
         height: 100%;
         left: 50%;
         position: relative;
-        margin-left: -100%;
+        margin-left: -100% !important;
         /*margin-top: -100%;*/
         /*top: 100%;*/
     }

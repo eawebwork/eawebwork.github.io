@@ -51,8 +51,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fo/dist/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47325101" vertical-offset="10450" max-vertical-offset="32368">
-              <caret line="635" column="21" selection-start-line="635" selection-start-column="21" selection-end-line="635" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.47325101" vertical-offset="13000" max-vertical-offset="32368">
+              <caret line="785" column="37" selection-start-line="785" selection-start-column="37" selection-end-line="785" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -278,12 +278,6 @@
       <created>1422429131452</created>
       <option name="number" value="Default" />
       <updated>1422429131452</updated>
-    </task>
-    <task id="LOCAL-00014" summary="commit message">
-      <created>1422440363356</created>
-      <option name="number" value="00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1422440363356</updated>
     </task>
     <task id="LOCAL-00015" summary="commit message">
       <created>1422440538606</created>
@@ -573,7 +567,13 @@
       <option name="project" value="LOCAL" />
       <updated>1423569341296</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="commit message">
+      <created>1423574221008</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1423574221008</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1056,8 +1056,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fo/dist/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47325101" vertical-offset="10450" max-vertical-offset="32368">
-          <caret line="635" column="21" selection-start-line="635" selection-start-column="21" selection-end-line="635" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.47325101" vertical-offset="13000" max-vertical-offset="32368">
+          <caret line="785" column="37" selection-start-line="785" selection-start-column="37" selection-end-line="785" selection-end-column="37" />
           <folding />
         </state>
       </provider>
