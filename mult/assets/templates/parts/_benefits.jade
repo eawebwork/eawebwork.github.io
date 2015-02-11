@@ -1,7 +1,14 @@
 section.benefits
   .benefits__inner
-    .benefits__how-it-works
+    .benefits__how-it-works.benefits__block.benefits__animate-in
       h2.benefits__title Как это работает
       +features(featuresIcons, featuresText)
-    .benefits__features
-      h2.benefits__title Скопировать текст
+      .benefits__button-set
+        button.button.benefits__button-how-it-works Наши приемущества
+    .benefits__features.benefits__block.benefits__animate
+      h2.benefits__title Наши преимущества
+      +features(featuresIcons1, featuresText1)
+      .benefits__button-set
+        button.button.benefits__button-feature узнать как это работает
+
+

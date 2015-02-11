@@ -1,0 +1,40 @@
+.footer {
+  &__partners {
+    @extend %clearfix;
+    text-align: center;
+    padding-bottom: 27px;
+    border-bottom: 1px solid #f3f3f3;
+    margin-top: 32px;
+    li {
+      display: inline-block;
+      margin: 10px 8px;
+      vertical-align: middle;
+    }
+  }
+  .feedback__title {
+    padding-top: 56px;
+  }
+  .feedback__wrapper {
+    padding-bottom: 40px;
+  }
+  &__tel {
+    font-size: 30px;
+    color: $black;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding-bottom: 46px;
+    margin-top: 9px;
+  }
+  &__copy {
+    color: #989898;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+}

@@ -5,10 +5,12 @@ $('.header').flowtype({
    maxFont : 80,
    fontRatio : 30
 });
-$([$('.header__button'), $('.press__link')]).each(function(){
-  $(this).click(showFeedback)
+var buttonsForm = [$('.header__button'), $('.press__link')];
+$(buttonsForm).each(function(){
+  $(this).click(showFeedback);
 })
   
+$('.benefits__button-set button').on('click', toggleBlock);
 $('input')
   .focus(animateLable)
   .blur(animateLableOut);
@@ -29,6 +31,12 @@ function animateLableOut(input) {
       }
 }
 
+function toggleBlock() {
+  var block = $('.benefits__block');
+  block.toggleClass('benefits__animate');
+  block.toggleClass('benefits__animate-in');
+  
+}
 function showFeedback(e) {
   e.preventDefault();
   $('body').animate({
@@ -63,3 +71,30 @@ $('#leaveApp').validate({
     $('.form__success').show();
   }
 });
+$('#leaveApp1').validate({
+  rules: {
+    tel2 : {
+      required: true,
+      digits: true
+    },
+    name2: {
+      required: true,
+    }
+  },
+  messages: {
+    name2: {
+      required: "Поля обязательны для заполнения",
+    },
+    tel2: {
+      required: "Поля обязательны для заполнения",
+      digits: "Некорректный номер телефона"
+    }
+  },
+  invalidHandler: function() {$(this).find('.form__text').hide(300);},
+  success: function() {$(this).find('.form__text').show(300);},
+  submitHandler: function() { 
+    $('#leaveApp1').hide();
+    $('.form__success').show();
+  }
+});
+

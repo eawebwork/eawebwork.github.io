@@ -4,8 +4,12 @@
       width: 84px;
       height: 84px;
       display: inline-block;
-      background-image: url('../img/icons.png');
+      background-image: url('../img/sprite.png');
       background-repeat: no-repeat;
+      margin-bottom: 15px;
+    }
+    .text {
+      line-height: 20px;
     }
     &__chat {
       background-position: 0 0;
@@ -36,10 +40,11 @@
 
     }
     &__report {
-      background-position: 0 0;
+      background-position: 24px -85px;
+      margin-left: -18px;
     }
-    &__targen {
-      background-position: 0 0;
+    &__target {
+      background-position: -60px -90px;
     }
   }
 }

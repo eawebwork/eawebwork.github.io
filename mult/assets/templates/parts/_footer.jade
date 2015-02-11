@@ -1,2 +1,16 @@
 footer.footer
   .footer__inner
+    ul.footer__partners
+      +partners(9)
+    .feedback__wrapper
+      form(id="leaveApp1", class="feedback__form")
+        h2.feedback__title От заказа до выхода в печать – всего несколько дней!
+        +input('name2','Ваше имя')
+        +input('tel2','Ваш номер телефона', 'tel')
+        button(type="submit", class="button feedback__button") Отправить
+        span.form__text Мы свяжемся с Вами в течение 10 минут
+      .form__success
+        h2.form__title--success Спасибо! Ваша заявка принята.
+        span.form__text--success Мы свяжемся с Вами в течение 10 минут.
+    span.footer__tel +7 (495) 215-15-87
+    span.footer__copy Copyright © 2015
