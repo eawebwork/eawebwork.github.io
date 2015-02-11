@@ -43,6 +43,7 @@ function showFeedback(e) {
     scrollTop: $(window).height()
   }, 500)
   $('.feedback').slideDown(200);
+  return false;
 }
 
 $('#leaveApp').validate({
