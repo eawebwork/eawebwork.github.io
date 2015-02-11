@@ -7,11 +7,18 @@
   display: none;
 }
 .adds__item {
-  margin-right: 6%;
+  margin-right: 1%;
 }
 .benefits__features .benefits__how-it-works__list li {
-  margin: 0 2%;
+  margin: 0 1%;
+  width: 165px;
 }
 .feedback__button, .form__field {
   float: left;
+}
+.adds__inner, .benefits__inner, .feedback__inner, .footer__inner, .header__inner, .press__inner {
+  max-width: 960px;
+  min-width: 960px;
+  margin: 0 auto;
+  padding: 0 40px 0 40px;
 }
