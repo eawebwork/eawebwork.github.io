@@ -10,14 +10,13 @@
   margin-right: 1%;
 }
 .benefits__how-it-works__list li {
-  margin-left: 2%;
+  margin-left: 1%;
   width: 155px;
 }
 .benefits__features .benefits__how-it-works__list li {
   margin: 0 1%;
   width: 165px;
 }
-
 .feedback__button, .form__field {
   float: left;
 }
