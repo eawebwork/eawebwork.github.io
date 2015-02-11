@@ -734,7 +734,7 @@ label.focus
 {
     .benefits__features .benefits__how-it-works__list li
     {
-        margin: 0 2%;
+        margin: 0 1.5%;
     }
 }
 @media (max-width: 1280px) and (min-width: 1200px)
@@ -742,7 +742,7 @@ label.focus
     .benefits__features .benefits__how-it-works__list li
     {
         width: 180px; 
-        margin: 0 2%;
+        margin: 0 1%;
     }
 }
 @media (max-width: 1200px) and (min-width: 1140px)
@@ -761,7 +761,7 @@ label.focus
         font-size: 15px;
 
         width: 138px; 
-        margin: 0 3%;
+        margin: 0 2.5%;
     }
 }
 @media (max-width: 1040px)
