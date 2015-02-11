@@ -27,14 +27,14 @@
 }
 
 .adds__item {
-  width: 100px;
+  margin-left: 2%;
+  display: inline;
 }
 .footer__partners {
   white-space: nowrap;
 }
 .footer__partners li {
-  width: 100px;
-  float: left;
+  display: inline;
 }
 .adds__image-big {
   width: 250px;
