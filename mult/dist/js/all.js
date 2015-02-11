@@ -39,7 +39,7 @@ function toggleBlock() {
 }
 function showFeedback(e) {
   e.preventDefault();
-  $('body').animate({
+  $('html,body').animate({
     scrollTop: $(window).height()
   }, 500)
   $('.feedback').slideDown(200);
