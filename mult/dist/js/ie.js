@@ -1,10 +1,3 @@
-$('.header').flowtype({
-   minimum : 880,
-   maximum : 1200,
-   minFont : 20,
-   maxFont : 80,
-   fontRatio : 30
-});
 var buttonsForm = [$('.header__button'), $('.press__link')];
 $(buttonsForm).each(function(){
   $(this).click(showFeedback);

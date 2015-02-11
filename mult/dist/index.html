@@ -10,6 +10,7 @@
     <![endif]-->
     <!--[if IE 7]>
       <link rel="stylesheet" href="css/ie-s.css">
+      <script src="js/ie.js"></script>
     <![endif]-->
   </head>
 
@@ -196,7 +197,9 @@
     <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/flowtype.js"></script>
     <script src="js/validate.js"></script>
-    <script src="js/all.js"></script>
+    <!--[if !(IE 7)]>
+      <script src="js/all.js"></script>
+    <![endif]-->
     <!-- end script-->
   </body>
 </html>
