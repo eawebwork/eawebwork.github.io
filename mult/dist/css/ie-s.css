@@ -27,9 +27,10 @@
 }
 
 .adds__item {
-  margin-left: 1%;
+  margin-left: 0%;
   display: inline;
-  width: 160px;
+  width: 130px;
+  text-align: center;
 }
 .footer__partners {
   white-space: nowrap;
