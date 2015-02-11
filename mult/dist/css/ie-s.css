@@ -17,6 +17,7 @@
 }
 .feedback__button, .form__field {
   float: left;
+  width: 240px;
 }
 .adds__inner, .benefits__inner, .feedback__inner, .footer__inner, .header__inner, .press__inner {
   max-width: 960px;
@@ -26,11 +27,15 @@
 }
 
 .adds__item {
-  width: 238px;
+  width: 100px;
 }
 .footer__partners {
   white-space: nowrap;
 }
 .footer__partners li {
   width: 120px;
+  float: left;
+}
+.adds__image-big {
+  width: 250px;
 }
