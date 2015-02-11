@@ -1,0 +1,36 @@
+.benefits__animate-in {
+  opacity: 1;
+  display: block;
+}
+.benefits__animate {
+  opacity: 0;
+  display: none;
+}
+
+.benefits__how-it-works__list li {
+  margin-left: 1%;
+  width: 155px;
+}
+.benefits__features .benefits__how-it-works__list li {
+  margin: 0 1%;
+  width: 165px;
+}
+.feedback__button, .form__field {
+  float: left;
+}
+.adds__inner, .benefits__inner, .feedback__inner, .footer__inner, .header__inner, .press__inner {
+  max-width: 960px;
+  min-width: 960px;
+  margin: 0 auto;
+  padding: 0 40px 0 40px;
+}
+
+.adds__item {
+  width: 238px;
+}
+.footer__partners {
+  white-space: nowrap;
+}
+.footer__partners li {
+  width: 120px;
+}
