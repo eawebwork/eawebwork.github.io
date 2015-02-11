@@ -702,8 +702,8 @@ label.focus
     .benefits__how-it-works li
     {
         font-size: 15px; 
-        margin-right: 2.5%;
-        width: 128px;
+        margin-right: 1%;
+        width: 123px;
     }
 }
 .benefits__how-it-works li:first-child
