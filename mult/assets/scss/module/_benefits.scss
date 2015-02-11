@@ -138,10 +138,18 @@
     }
   }
   &__animate {
+    -webkit-animation-name: fadeOutUp;
+    -moz-animation-name: fadeOutUp;
     animation-name: fadeOutUp;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
     animation-duration: 1s;
     &-in {
+      -moz-animation-name: fadeIn;
+      -webkit-animation-name: fadeIn;
       animation-name: fadeIn;
+      -webkit-animation-duration: 1.6s;
+      -moz-animation-duration: 1.6s;
       animation-duration: 1.6s;
     }
   }
