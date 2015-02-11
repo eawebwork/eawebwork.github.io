@@ -9,3 +9,9 @@
 .adds__item {
   margin-right: 6%;
 }
+.benefits__features .benefits__how-it-works__list li {
+  margin: 0 2%;
+}
+.feedback__button, .form__field {
+  float: left;
+}
