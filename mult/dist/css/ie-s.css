@@ -9,7 +9,7 @@
 
 .benefits__how-it-works__list li {
   margin-left: 1%;
-  width: 155px;
+  width: 150px;
 }
 .benefits__features .benefits__how-it-works__list li {
   margin: 0 1%;
@@ -27,8 +27,9 @@
 }
 
 .adds__item {
-  margin-left: 2%;
+  margin-left: 1%;
   display: inline;
+  width: 160px;
 }
 .footer__partners {
   white-space: nowrap;
