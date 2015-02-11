@@ -1,3 +1,10 @@
+$('.header').flowtype({
+   minimum : 880,
+   maximum : 1200,
+   minFont : 20,
+   maxFont : 80,
+   fontRatio : 30
+});
 var buttonsForm = [$('.header__button'), $('.press__link')];
 $(buttonsForm).each(function(){
   $(this).click(showFeedback);
@@ -39,56 +46,5 @@ function showFeedback(e) {
   return false;
 }
 
-$('#leaveApp').validate({
-  rules: {
-    tel1 : {
-      required: true,
-      digits: true
-    },
-    name1: {
-      required: true,
-    }
-  },
-  messages: {
-    name1: {
-      required: "Поля обязательны для заполнения",
-    },
-    tel1: {
-      required: "Поля обязательны для заполнения",
-      digits: "Некорректный номер телефона"
-    }
-  },
-  invalidHandler: function() {$(this).find('.form__text').hide(300);},
-  success: function() {$(this).find('.form__text').show(300);},
-  submitHandler: function() { 
-    $('#leaveApp').hide();
-    $('.form__success').show();
-  }
-});
-$('#leaveApp1').validate({
-  rules: {
-    tel2 : {
-      required: true,
-      digits: true
-    },
-    name2: {
-      required: true,
-    }
-  },
-  messages: {
-    name2: {
-      required: "Поля обязательны для заполнения",
-    },
-    tel2: {
-      required: "Поля обязательны для заполнения",
-      digits: "Некорректный номер телефона"
-    }
-  },
-  invalidHandler: function() {$(this).find('.form__text').hide(300);},
-  success: function() {$(this).find('.form__text').show(300);},
-  submitHandler: function() { 
-    $('#leaveApp1').hide();
-    $('.form__success').show();
-  }
-});
+
 
