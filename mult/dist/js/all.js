@@ -50,7 +50,8 @@ $('#leaveApp').validate({
   rules: {
     tel1 : {
       required: true,
-      digits: true
+      phoneUS: true,
+      minlength: 5
     },
     name1: {
       required: true,
