@@ -168,7 +168,7 @@ button:focus
 {
     display: inline-block;
 
-    width: 84px;
+    width: 85px;
     height: 84px;
     margin-bottom: 15px; 
 
@@ -211,11 +211,11 @@ button:focus
 {
     margin-left: -18px; 
 
-    background-position: 24px -85px;
+    background-position: 25px -84px;
 }
 .sprite__benefits__target
 {
-    background-position: -60px -90px;
+    background-position: -60px -85px;
 }
 
 .adds__content:after,
@@ -656,12 +656,10 @@ label.focus
     display: inline-block;
 
     width: 15px;
-    height: 24px;
+    height: 34px;
 
     content: '';
-    transform:scale(1.2);
-    background: url('../img/sprite.png') no-repeat;
-    background-position: -940px -40px;
+    background: url('../img/arrow.png') no-repeat;
 }
 .benefits__how-it-works li:first-child
 {
