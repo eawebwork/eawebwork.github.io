@@ -883,10 +883,10 @@ label.focus
 {
     position: absolute;
     top: 0;
-    left: 50%;
+    left: 0%;
 
     margin-left: -37px;
-    margin-left: -1400px; 
+    margin-left: 0px; 
 
     text-align: center;
     white-space: nowrap;
@@ -895,6 +895,7 @@ label.focus
 {
     margin-right: 14px;
     font-size: 0;
+    width: 114px;
 }
 /*@media (min-width: 1280px) {
   .press__products {

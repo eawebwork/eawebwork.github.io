@@ -14,6 +14,7 @@ $('.benefits__button-set button').on('click', toggleBlock);
 $('input')
   .focus(animateLable)
   .blur(animateLableOut);
+$(window).on('resize', addImage)
 
 function animateLable(input) {
   var thisInput = input.target,
@@ -45,7 +46,37 @@ function showFeedback(e) {
   $('.feedback').slideDown(200);
   return false;
 }
+function addImage() {
+  var width = $('.press').width(),
+      widthImg = 112,
+      count = 8,
+      block = '';
+      if(width > 1060 && width < 1200) {
+        count = 9;
+      } else if (width > 1200 && width < 1400) {
+        count = 10
+      } else if (width > 1400 && width < 1500) {
+        count = 11
+      } else if (width > 1500 && width < 1600) {
+        count = 12
+      } else if (width > 1600 && width < 1700){ 
+        count = 13
+      } else if (width > 1700 && width < 1800){ 
+        count = 14
+      } else if (width > 1800){ 
+        count = 15
+      } 
+      for(var i = 1; i < count+1; i++) {
+        block += '<img src="img/prod'+i+'.png" alt="kommersant"/>';
+      }
+        $('.press__products').html(block);
+      margin = (width - (widthImg*count))/ count;
 
+      $(".press__products img").css({
+        marginRight: margin + 'px'
+      })
+      console.log(count)
+}
 $('#leaveApp').validate({
   rules: {
     tel1 : {
