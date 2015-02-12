@@ -46,6 +46,7 @@ function showFeedback(e) {
   $('.feedback').slideDown(200);
   return false;
 }
+addImage();
 function addImage() {
   var width = $('.press').width(),
       widthImg = 112,
