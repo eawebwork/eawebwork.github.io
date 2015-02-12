@@ -5,5 +5,5 @@
 jQuery.validator.addMethod("phoneUS", function(phone_number, element) {
     phone_number = phone_number.replace(/\s+/g, ""); 
   return this.optional(element) || phone_number.length > 5 &&
-    phone_number.match(/([0-9\-\(\)\+])/);
+    phone_number.match(/([\W0-9\-\(\)\+])/);
 }, "Некорректный номер телефона");
