@@ -896,6 +896,14 @@ label.focus
     margin-right: 14px;
     font-size: 0;
 }
+/*@media (min-width: 1280px) {
+  .press__products {
+    margin-left: -1406px;
+  }
+  .press__products img {
+    margin: 7px;
+  }
+}*/
 .press__products__wrapper
 {
     position: relative;
