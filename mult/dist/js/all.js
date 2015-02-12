@@ -40,7 +40,7 @@ function toggleBlock() {
 function showFeedback(e) {
   e.preventDefault();
   $('html,body').animate({
-    scrollTop: $(window).height()
+    scrollTop: $('.header').height()
   }, 500)
   $('.feedback').slideDown(200);
   return false;
@@ -76,7 +76,8 @@ $('#leaveApp1').validate({
   rules: {
     tel2 : {
       required: true,
-      digits: true
+      phoneUS: true,
+      minlength: 5
     },
     name2: {
       required: true,
