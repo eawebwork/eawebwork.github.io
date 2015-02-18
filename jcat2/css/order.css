@@ -63,3 +63,38 @@ html, body {
   right: 0;
   top: 0px;
 }
+.title-button {
+  display: none;
+  position: absolute;
+  right: 20px;
+  background: rgba(0,0,0,.7);
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+  bottom: 48px;
+
+  /*box-shadow: 0px 1px 3px 0px #1e1e1e;*/
+}
+.title-button:after {
+  content: ''; 
+  position: absolute; /* Абсолютное позиционирование */
+  left: 50%;
+  margin-left: -10px;
+  bottom: -16px; /* Положение треугольника */
+  border: 8px solid transparent; /* Прозрачные границы */
+  border-top: 8px solid rgba(0,0,0,0.7); /* Добавляем треугольник */
+}
+.premium-icon:hover {
+  cursor: pointer;
+}
+.premium-icon:hover .title-button {
+  display: block;
+  width: 340px;
+  color: #fff;
+  left: -170px;
+  bottom: 25px;
+  font-weight: normal !important;
+  text-align: center;
+  
+}
